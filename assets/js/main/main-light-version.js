@@ -653,7 +653,7 @@ $(document).ready(function(){
 
 				if(canvasAnimation[1] == 'particles-brownian-motion'){
 					
-					particlesJS.load('el-bg-block', '../assets/js/canvas-light-version/particles-settings/particles-brownian-motion.json', function() {});
+					particlesJS.load('el-bg-block', 'https://dalton-cole.github.io/sortsystems-web/assets/js/canvas-light-version/particles-settings/particles--motion.json', function() {});
 				}
 
 				if(canvasAnimation[1] == 'particles-to-up'){
@@ -740,7 +740,7 @@ $(document).ready(function(){
 
 				if(canvasAnimation[1] == 'particles-brownian-motion'){
 					
-					particlesJS.load('el-bg-block', '../assets/js/canvas-light-version/particles-settings/particles-brownian-motion.json', function() {});
+					particlesJS.load('el-bg-block', 'https://dalton-cole.github.io/sortsystems-web/assets/js/canvas-light-version/particles-settings/particles-brownian-motion.json', function() {});
 				}
 
 				if(canvasAnimation[1] == 'particles-to-up'){
