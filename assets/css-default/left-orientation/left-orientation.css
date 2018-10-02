@@ -1,0 +1,72 @@
+/*-------------------------------------------
+  Start Left Orientation
+-------------------------------------------*/
+#a3 .main-pull-button {
+  position: fixed;
+  z-index: 100;
+  top: 1.875em;
+  right: auto;
+  left: 1.875em;
+}
+#a3 .fullscreen-section.out-fullscreen-section {
+  opacity: 0;
+  visibility: hidden;
+}
+#a3 .fullscreen-section.out-fullscreen-section.translate-x {
+  right: auto !important;
+  left: -50% !important;
+}
+#a3 .el-more-information {
+  left: 0 !important;
+}
+#a3 .fullscreen-section .close-button {
+  left: 1.15385em;
+  right: auto;
+}
+#a3 .el-scroll-holder .mCSB_scrollTools {
+  right: auto;
+  left: 0;
+}
+#a3 .fullscreen-section.out-fullscreen-section.scale-in-rotate {
+  transform: scale(0.6) translateX(42%);
+}
+#a3 .el-more-information .el-mini-nav {
+  position: absolute;
+  top: 50%;
+  left: auto;
+  right: 0;
+  transform: translateX(100%) translateY(-50%);
+}
+#a3 .el-more-information .el-mini-nav .nav-item > a {
+  text-align: left;
+  margin-right: 0;
+  margin-left: 1.25em;
+}
+#a3 .el-more-information .el-mini-nav .nav-item > a span {
+  display: inline-block;
+  line-height: 1;
+  position: relative;
+  z-index: 99;
+}
+#a3 .el-more-information .el-mini-nav .nav-item > a span:after {
+  display: block;
+  position: absolute;
+  left: auto;
+  right: 0;
+}
+#a3 .el-more-information .el-mini-nav .nav-item > a.active span:after,
+#a3 .el-more-information .el-mini-nav .nav-item > a span:hover:after {
+  width: 100%;
+}
+#a3 .fullscreen-section.out-fullscreen-section .el-mini-nav .nav-item > a {
+  opacity: 0;
+  transform: translateX(4em);
+}
+#a3 .el-mini-nav .nav-item > a {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/*-------------------------------------------
+  End Left Orientation
+-------------------------------------------*/
