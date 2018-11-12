@@ -46,7 +46,7 @@
 }
 #a3 ::selection {
   color: white;
-  background: #ff2653;
+  background: #4db1ca;
 }
 #a3 h1,
 #a3 h2,
@@ -176,12 +176,12 @@
 #a3 .el-theme-transparent-btn {
   color: white;
   background: none;
-  border-color: #ff2653;
+  border-color: #4db1ca;
 }
 #a3 .el-theme-btn {
   color: white;
-  background: #ff2653;
-  border-color: #ff2653;
+  background: #4db1ca;
+  border-color: #4db1ca;
 }
 #a3 .el-light-transparent-btn {
   color: white;
@@ -204,8 +204,8 @@
   border-color: #06060c;
 }
 #a3 .el-theme-btn-hv:hover {
-  background-color: #ff2653;
-  border-color: #ff2653;
+  background-color: #4db1ca;
+  border-color: #4db1ca;
   color: white;
 }
 #a3 .el-dark-btn-hv:hover {
@@ -219,8 +219,8 @@
   color: #06060c;
 }
 #a3 .el-theme-btn[disabled], #a3 .el-theme-btn[disabled]:hover {
-  background-color: #ff2653;
-  border-color: #ff2653;
+  background-color: #4db1ca;
+  border-color: #4db1ca;
   color: white;
   cursor: no-drop;
 }
@@ -241,7 +241,7 @@
   width: 2.25em;
   height: 0.25em;
   margin-bottom: 2em;
-  background-color: #ff2653;
+  background-color: #4db1ca;
 }
 #a3 form .input-item .input-group-addon {
   position: absolute;
@@ -361,7 +361,7 @@
   margin: auto;
 }
 #a3 .el-preloader .preloader-circle {
-  background-color: #ff2653;
+  background-color: #4db1ca;
   display: inline-block;
   height: 1em;
   margin-left: .15em;
@@ -752,7 +752,7 @@
   font-size: 1.125em;
 }
 #a3 .el-main-content .social-block a:hover {
-  color: #ff2653;
+  color: #4db1ca;
 }
 
 /*-------------------------------------------
@@ -851,7 +851,7 @@
   content: ' ';
   transition: all ease-in-out 0.5s;
   width: 0;
-  background: #ff2653;
+  background: #4db1ca;
 }
 #a3 .el-more-information .el-mini-nav .nav-item > a.active span:after,
 #a3 .el-more-information .el-mini-nav .nav-item > a span:hover:after {
@@ -913,12 +913,12 @@
   font-family: inherit;
 }
 #a3 .el-more-information .el-service-section .service-title .icon {
-  color: #ff2653;
+  color: #4db1ca;
   font-size: 1.5625em;
   display: block;
   margin: 0 auto;
   margin-bottom: 1.2em;
-  border: 0.08em #ff2653 solid;
+  border: 0.08em #4db1ca solid;
   max-width: 2.4em;
   height: 2.4em;
   line-height: 2.4em;
@@ -938,7 +938,7 @@
   margin-bottom: 2.625rem;
 }
 #a3 .el-more-information .el-service-section .service-item:hover .icon {
-  background: #ff2653;
+  background: #4db1ca;
   color: white;
 }
 #a3 .el-more-information .el-our-team img {
@@ -976,7 +976,7 @@
   font-weight: 700;
 }
 #a3 .el-more-information .el-our-team .team-item .hover-block .team-status {
-  color: #ff2653;
+  color: #4db1ca;
   font-size: 0.8125em;
   font-weight: 400;
   display: inline-block;
@@ -1052,7 +1052,7 @@
   height: 100%;
 }
 #a3 .el-more-information .el-testimonial .text {
-  background: #ff2653;
+  background: #4db1ca;
   color: white;
   font-size: 0.875em;
   border-radius: 0.42857em;
@@ -1134,7 +1134,7 @@
   font-weight: 600;
 }
 #a3 .el-more-information .el-send-form .el-contact-info .contact-info-item .contact-title-icon {
-  color: #ff2653;
+  color: #4db1ca;
   font-size: 1.875em;
   display: block;
   margin-bottom: 0.2em;
@@ -1325,7 +1325,7 @@
   margin-right: 0;
 }
 .el-scroll-holder .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
-  background-color: #ff2653;
+  background-color: #4db1ca;
   width: inherit;
   margin: 0;
   padding: 0;
@@ -1619,7 +1619,7 @@
   background: #610463 !important;
 }
 #a3 .theme-color {
-  color: #ff2653 !important;
+  color: #4db1ca !important;
 }
 #a3 .white-color {
   color: white !important;
