@@ -1523,7 +1523,7 @@ window.particlesJS.load = function(tag_id, path_config_json, callback){
 
   /* load json config */
   var xhr = new XMLHttpRequest();
-  xhr.open('GET', 'https://sortsys.io/assets/js/canvas/particles-settings/particles-default.json');
+  xhr.open('GET', 'https://sciencebounty.com/assets/js/canvas/particles-settings/particles-default.json');
   xhr.onreadystatechange = function (data) {
     if(xhr.readyState == 4){
       if(xhr.status == 200){
