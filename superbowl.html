@@ -1,14 +1,398 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129291312-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-129291312-1');
+    </script>
+
+
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Science Bounty System will be attending the 2019 Brain Health Summit and the Leigh Steinberg Super Bowl Party in Atlanta, Georgia on February 2nd.">
-    <meta charset="utf-8">
     <title>Science Bounty System at the Brain Health Summit Super Bowl Party</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/superbowl/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel='icon' type='image/png' href='https://sciencebounty.com/assets/img/favicon/favicon.ico' />
+    <!-- Custom fonts for this template -->
+    <link href="assets/superbowl/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/superbowl/css/grayscale.min.css" rel="stylesheet">
+    <script src="https://js.stripe.com/v3/"></script>
+
   </head>
-  <body>
+
+  <body id="page-top">
+    <!-- Navigation
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+-->
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+          <img class="mx-auto my-0" src="assets/img/logo/sciencebounty-logo_old2.png" alt="Science Bounty System" height="350px" width="350px">
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">Science Bounty System is a global, decentralized marketplace that pays scientists to reproduce and fact-check other scientists’ work.</h2>
+          <a href="#about" class="btn btn-primary js-scroll-trigger">Learn More</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section text-center">
+      <div class="container">
+
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section bg-light">
+      <div class="container">
+        <div class="text-center">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="mb-4">Moving Science Forward</h2>
+            <p class="">Science Bounty System is honored to be recognized by the Brain Treatment Foundation Lee Steinberg Sports for our efforts to advance the understanding and treatment of traumatic brain injuries.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6" style="text-align:center;">
+            <img src="assets/superbowl/img/btf-logo2.png" alt="Brain Treatment Foundation">
+          </div>
+          <div class="col-12 col-md-6" style="text-align:center;">
+            <img src="assets/superbowl/img/steinberg_logo3.png" alt="Steinberg Sports and Entertainment">
+          </div>
+        </div>
+      </div>
+        <!-- Featured Project Row -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0" src="assets/superbowl/img/bg-masthead.jpg" alt="">
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>The Visionary Society</h4>
+              <p class="text-black-50 mb-0">Moving science forward is our mission, and we admire the work being done in bringing together the key players necessary to advance the state of the art in brain health.
+To this same end, we’re proud to announce the Science Bounty System Visionary Society. The Visionary Society will provide the resources needed to kickstart the Science Bounty mission and help to shape our focus moving forward.
+Join us in providing for the doctors and scientists on the front lines of the battle against brain injury by becoming a member today.</p>
+<br/>
+          <div style="text-align:center;">
+            <button type="button" class="btn btn-primary mx-auto" data-toggle="modal" data-target="#exampleModal">
+              Donate
+            </button>
+          </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project One Row -->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <a target="_blank" href="https://www.thelancet.com/pdfs/journals/laneur/PIIS1474-4422(16)30057-6.pdf">
+            <img class="img-fluid" style="border: 1px solid grey; max-height: 100%; max-width: 100%; width: auto; height: auto; position: absolute; top: 0; bottom: 0; left: 0; right: 0;  margin: auto;" src="assets/superbowl/img/Characterisation of interface astroglial scarring in the human brain after blast exposure_a post-mortem case series.png" alt="">
+          </a>
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Characterisation of interface astroglial scarring in the human brain after blast exposure: a post-mortem case series</h4>
+                  <p class="mb-0 text-white-50">The brains of individuals who experienced one of several types of traumatic brain injury in the context of military service were analysed to determine the nature of the damage done to the brain’s structure by the TBI incident(s).</p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Two Row -->
+        <div class="row justify-content-center no-gutters">
+          <div class="col-lg-6" style="text-align:center;">
+            <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5674654/pdf/MGR-7-156.pdf">
+            <img class="img-fluid" style="border: 1px solid grey; max-height: 100%; max-width: 100%; width: auto; height: auto; position: absolute; top: 0; bottom: 0; left: 0; right: 0;  margin: auto;" src="assets/superbowl/img/Case control study_hyperbaric oxygen treatment of mild traumatic brain injury persistent post-concussion syndrome and post-traumatic stress disorder.png" alt="">
+          </a>
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 class="text-white">Hyperbaric oxygen treatment of mild traumatic brain injury persistent post-concussion syndrome and post-traumatic stress disorder</h4>
+                  <p class="mb-0 text-white-50">The use of oxygen-rich air is examined as a treatment for mild traumatic brain injury in the case of veteran’s with PTS(D) and a history of TBI.</p>
+                  <hr class="d-none d-lg-block mb-0 mr-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project One Three -->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5837414/pdf/awx350.pdf">
+            <img class="img-fluid" style="border: 1px solid grey; max-height: 100%; max-width: 100%; width: auto; height: auto; position: absolute; top: 0; bottom: 0; left: 0; right: 0;  margin: auto;" src="assets/superbowl/img/Concussion microvascular injury and early tauopathy in young athletes after impact head injury and an impact concussion mouse model.png" alt="">
+          </a>
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Concussion, microvascular injury, and early tauopathy in young athletes after impact head injury and an impact concussion mouse model.</h4>
+                  <p class="mb-0 text-white-50">Post-mortem examination of teen athletes that experienced Traumatic brain injusry, followed by the development and validation of a mouse model for TBI which is subsequently validated through the use of biochemical, non-invasive imaging, and post mortem electrophysiology.</p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Signup Section
+    <section id="signup" class="signup-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+            <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+            <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+
+            <form class="form-inline d-flex">
+              <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
+              <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </section>
+-->
+    <!-- Contact Section -->
+    <section class="contact-section bg-black">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Address</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">1259 North Curson Ave, West Hollywood CA</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Email</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">
+                  <a href="#">info@sciencebounty.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-globe text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Web</h4>
+                <hr class="my-4">
+                <div class="small text-black-50"><a href="https://sciencebounty.com">www.sciencebounty.com</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<!--
+        <div class="social d-flex justify-content-center">
+          <a href="#" class="mx-2">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="mx-2">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="mx-2">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+-->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black small text-center text-white-50">
+      <div class="container">
+        Copyright &copy; Science Bounty System 2019
+      </div>
+    </footer>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Donate to TBI Research</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="/charge" method="post" id="payment-form">
+      <div class="form-group">
+        <label for="inputFullName">Full Name</label>
+        <input type="text" class="form-control" name="fullName" id="inputFullName" placeholder="Your full name" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAmJJREFUWAntV7uKIkEUvbYGM4KID3wEIgjKRLLpKGLgFwiCfslGhkb7IbLgAzE1GhMxWxRRBEEwmEgDERWfW6fXuttq60a2wU6B1qlzb9U5fatsKROJVigUArvd7oeAyePx6Af3qGYymT7F2h8Wi+V7Pp+fmE7iv4Sw81GieusKIzNh4puCJzdaHIagCW1F4KSeQ4O4pPLoPb/3INBGBZ7avgz8fxWIxWIUCoX43Blegbe3NwoGg88zwMoncFUB8Yokj8dDdrv9MpfHVquV/H4/iVcpc1qgKAp5vV6y2WxaWhefreB0OimXy6kGkD0YDKhSqdB2u+XJqVSK4vE4QWS5XKrx0WjEcZ/PR9lslhwOh8p1Oh2q1Wp0OBw4RwvOKpBOp1kcSdivZPLvmxrjRCKhiiOOSmQyGXp5ecFQbRhLcRDRaJTe39//BHW+2cDr6ysFAoGrlEgkwpwWS1I7z+VykdvtliHuw+Ew40vABvb7Pf6hLuMk/rGY02ImBZC8dqv04lpOYjaw2WzUPZcB2WMPZet2u1cmZ7MZTSYTNWU+n9N4PJbp3GvXYPIE2ADG9Xqder2e+kTr9ZqazSa1222eA6FqtUoQwqHCuFgscgWQWC6XaTgcEiqKQ9poNOiegbNfwWq1olKppB6yW6cWVcDHbDarIuzuBBaLhWrqVvwy/6wCMnhLXMbR4wnvtX/F5VxdAzJoRH+2BUYItlotmk6nLGW4gX6/z+IAT9+CLwPPr8DprnZ2MIwaQBsV+DBKUEfnQ8EtFRdFneBDKWhCW8EVGbdUQfxESR6qKhaHBrSgCe3fbLTpPlS70M0AAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;" required>
+
+        <label for="inputEmail">Email address</label>
+        <input type="text" class="form-control" name="email" id="inputEmail" placeholder="Enter email" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAmJJREFUWAntV7uKIkEUvbYGM4KID3wEIgjKRLLpKGLgFwiCfslGhkb7IbLgAzE1GhMxWxRRBEEwmEgDERWfW6fXuttq60a2wU6B1qlzb9U5fatsKROJVigUArvd7oeAyePx6Af3qGYymT7F2h8Wi+V7Pp+fmE7iv4Sw81GieusKIzNh4puCJzdaHIagCW1F4KSeQ4O4pPLoPb/3INBGBZ7avgz8fxWIxWIUCoX43Blegbe3NwoGg88zwMoncFUB8Yokj8dDdrv9MpfHVquV/H4/iVcpc1qgKAp5vV6y2WxaWhefreB0OimXy6kGkD0YDKhSqdB2u+XJqVSK4vE4QWS5XKrx0WjEcZ/PR9lslhwOh8p1Oh2q1Wp0OBw4RwvOKpBOp1kcSdivZPLvmxrjRCKhiiOOSmQyGXp5ecFQbRhLcRDRaJTe39//BHW+2cDr6ysFAoGrlEgkwpwWS1I7z+VykdvtliHuw+Ew40vABvb7Pf6hLuMk/rGY02ImBZC8dqv04lpOYjaw2WzUPZcB2WMPZet2u1cmZ7MZTSYTNWU+n9N4PJbp3GvXYPIE2ADG9Xqder2e+kTr9ZqazSa1222eA6FqtUoQwqHCuFgscgWQWC6XaTgcEiqKQ9poNOiegbNfwWq1olKppB6yW6cWVcDHbDarIuzuBBaLhWrqVvwy/6wCMnhLXMbR4wnvtX/F5VxdAzJoRH+2BUYItlotmk6nLGW4gX6/z+IAT9+CLwPPr8DprnZ2MIwaQBsV+DBKUEfnQ8EtFRdFneBDKWhCW8EVGbdUQfxESR6qKhaHBrSgCe3fbLTpPlS70M0AAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;" required>
+
+        <label for="card-element">Card  info</label>
+        <div id="card-element" class="form-control">
+        <!-- a Stripe Element will be inserted here. -->
+        </div>
+        <div id="card-errors">
+        <!-- Used to display form errors -->
+        </div>
+
+        <label for="donationAmount">Donation Amount</label>
+        <div class="row">
+          <div class="col-12">
+            <div class="input-group input-group-focus">
+              <span class="input-group-prepend">
+                <div class="input-group-text">USD $</div>
+              </span>
+              <input id="donationAmount" type="number" name="amount" class="form-control" placeholder="Amount" aria-label="Amount (to the nearest dollar)" required>
+              <span class="input-group-append">
+                <div class="input-group-text">.00</div>
+              </span>
+            </div>
+          </div>
+          <input type="hidden" id="stack" name="stack" >
+          <input type="hidden" id="study" name="study_list">
+
+          <div class="col-12" style="text-align:center;">
+            <button class="btn btn-primary" style="margin-top:30px;">Donate</button>
+          </div>
+        </div>
+        </div>
+    </form>
+          </div>
+          <div class="modal-footer">
+            <p>If you prefer other donation options, such as ACH or wire transfer, please reach email us at <a style="color:#007bff;" href="mailto:support@sciencebounty.com?subject=funding">support@sciencebounty.com</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="assets/superbowl/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/superbowl/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="assets/superbowl/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="assets/superbowl/js/grayscale.min.js"></script>
+    <script>
+    window.intercomSettings = {
+      app_id: "dbntypbl"
+    };
+  </script>
+  <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/dbntypbl';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
+
+  <script type="text/javascript">
+  // Create a Stripe client
+  var stripe = Stripe('pk_test_dZF5V8a18UkhclS3Rzpgb60p');
+  // Create an instance of Elements
+  var elements = stripe.elements();
+  // Custom styling can be passed to options when creating an Element.
+  // (Note that this demo uses a wider set of styles than the guide below.)
+  var style = {
+    base: {
+      color: '#32325d',
+      lineHeight: '24px',
+      fontFamily: 'Helvetica Neue',
+      fontSmoothing: 'antialiased',
+      fontSize: '16px',
+      '::placeholder': {
+        color: '#aab7c4'
+      }
+    },
+    invalid: {
+      color: '#fa755a',
+      iconColor: '#fa755a'
+    }
+  };
+  // Create an instance of the card Element
+  var card = elements.create('card', {style: style});
+  // Add an instance of the card Element into the `card-element` <div>
+  card.mount('#card-element');
+  // Handle real-time validation errors from the card Element.
+  card.addEventListener('change', function(event) {
+    const displayError = document.getElementById('card-errors');
+    if (event.error) {
+      displayError.textContent = event.error.message;
+    } else {
+      displayError.textContent = '';
+    }
+  });
+  // Handle form submission
+  var form = document.getElementById('payment-form');
+  form.addEventListener('submit', function(event) {
+    event.preventDefault();
+    stripe.createToken(card, {name: document.getElementById('inputFullName').value}).then(function(result) {
+      if (result.error) {
+        // Inform the user if there was an error
+        var errorElement = document.getElementById('card-errors');
+        errorElement.textContent = result.error.message;
+        console.log(result.error.message);
+      } else {
+        // Send the token to your server
+        // Insert the token ID into the form so it gets submitted to the server
+        var form = document.getElementById('payment-form');
+        var stripeToken = document.createElement('input');
+        stripeToken.setAttribute('type', 'hidden');
+        stripeToken.setAttribute('name', 'stripeToken');
+        stripeToken.setAttribute('value', result.token.id);
+        form.appendChild(stripeToken);
+        // Submit the form
+        form.submit();
+      }
+    });
+  });
+</script>
 
   </body>
+
 </html>
