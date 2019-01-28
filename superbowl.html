@@ -27,7 +27,7 @@
 
     <!-- Custom styles for this template -->
     <link href="https://sciencebounty.com/assets/superbowl/css/grayscale.css" rel="stylesheet">
-    <script src="https://js.stripe.com/v3/"></script>
+    <!-- <script src="https://js.stripe.com/v3/"></script> -->
 
   </head>
 
@@ -81,15 +81,15 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2 class="mb-4">Moving Science Forward</h2>
-            <p class="">Science Bounty System is honored to be recognized by the Brain Treatment Foundation Lee Steinberg Sports for our efforts to advance the understanding and treatment of traumatic brain injuries.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-6" style="text-align:center;">
-            <img src="https://sciencebounty.com/assets/superbowl/img/btf-logo2.png" style="max-width: 100%;" alt="Brain Treatment Foundation">
-          </div>
-          <div class="col-6" style="text-align:center;">
-            <img src="https://sciencebounty.com/assets/superbowl/img/steinberg_logo3.png" style="max-width: 100%;" alt="Steinberg Sports and Entertainment">
+            <div class="row">
+              <div class="col-6" style="text-align:center;">
+                <img src="https://sciencebounty.com/assets/superbowl/img/btf-logo2.png" style="max-width: 100%;" alt="Brain Treatment Foundation">
+              </div>
+              <div class="col-6" style="text-align:center;">
+                <img src="https://sciencebounty.com/assets/superbowl/img/steinberg_logo3.png" style="max-width: 100%;" alt="Steinberg Sports and Entertainment">
+              </div>
+            </div>
+            <p class="">Science Bounty System is honored to be recognized by the Brain Treatment Foundation and by Leigh Steinberg of Steinberg Sports & Entertainment for our efforts to advance the understanding of brain health and treatment of traumatic brain injuries. It is a privilege to accept the 2019 Brain Health Innovtion Award on behalf of our organization, and all of our partners. </p>
           </div>
         </div>
       </div>
@@ -107,9 +107,7 @@ To this same end, we’re proud to announce the Science Bounty System Visionary 
 Join us in providing for the doctors and scientists on the front lines of the battle against brain injury by becoming a member today.</p>
 <br/>
           <div style="text-align:center;">
-            <button type="button" class="btn btn-primary mx-auto" data-toggle="modal" data-target="#exampleModal">
-              Donate
-            </button>
+            <a class="btn btn-primary" style="margin-top:30px;" href="https://stage.sciencebounty.com/stacks/traumatic-brain-injuries">Donate </a>
           </div>
             </div>
           </div>
@@ -260,7 +258,7 @@ Join us in providing for the doctors and scientists on the front lines of the ba
         Copyright &copy; Science Bounty System 2019
       </div>
     </footer>
-
+<!--
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -281,10 +279,10 @@ Join us in providing for the doctors and scientists on the front lines of the ba
 
         <label for="card-element">Card  info</label>
         <div id="card-element" class="form-control">
-        <!-- a Stripe Element will be inserted here. -->
+
         </div>
         <div id="card-errors">
-        <!-- Used to display form errors -->
+
         </div>
 
         <label for="donationAmount">Donation Amount</label>
@@ -316,6 +314,7 @@ Join us in providing for the doctors and scientists on the front lines of the ba
         </div>
       </div>
     </div>
+-->
     <!-- Bootstrap core JavaScript -->
     <script src="https://sciencebounty.com/assets/superbowl/vendor/jquery/jquery.min.js"></script>
     <script src="https://sciencebounty.com/assets/superbowl/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -331,7 +330,7 @@ Join us in providing for the doctors and scientists on the front lines of the ba
     };
   </script>
   <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/dbntypbl';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
-
+<!--
   <script type="text/javascript">
   // Create a Stripe client
   var stripe = Stripe('pk_test_dZF5V8a18UkhclS3Rzpgb60p');
@@ -393,6 +392,7 @@ Join us in providing for the doctors and scientists on the front lines of the ba
     });
   });
 </script>
+-->
 
   </body>
 
