@@ -1,4 +1,4 @@
-	/*-------Start Content Table-----------
+/*-------Start Content Table-----------
 
 	1. Default Settings
 	2. Custom Classnames
@@ -18,13 +18,14 @@
 -------------------------------------------*/
 .row {
   display: block;
+  margin: 0;
 }
 .row::after {
   display: block;
   content: "";
   clear: both;
 }
-.row > [class*=col-] {
+.row > [class*="col-"] {
   display: block;
   float: left;
 }
@@ -39,7 +40,8 @@
   font-size: 16px;
 }
 #a3 body {
-  font-family: "Montserrat", "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", "Lucida Grande", Arial, Verdana,
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #06060c;
@@ -77,7 +79,7 @@
 }
 @keyframes typedjsBlink {
   50% {
-    opacity: 0.0;
+    opacity: 0;
   }
 }
 @-webkit-keyframes typedjsBlink {
@@ -85,7 +87,7 @@
     opacity: 1;
   }
   50% {
-    opacity: 0.0;
+    opacity: 0;
   }
   100% {
     opacity: 1;
@@ -93,7 +95,7 @@
 }
 #a3 .typed-fade-out {
   opacity: 0;
-  transition: opacity .25s;
+  transition: opacity 0.25s;
   -webkit-animation: 0;
   animation: 0;
 }
@@ -110,7 +112,8 @@
   outline: none !important;
   letter-spacing: 0.07143em;
   margin: 0 0.21429em 1em;
-  font-family: "Montserrat", "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", "Lucida Grande", Arial, Verdana,
+    sans-serif;
   box-sizing: border-box;
   font-size: 0.875em;
   padding: 1em 2em;
@@ -129,7 +132,8 @@
     margin-left: 0;
   }
 }
-#a3 .el-theme-btn:hover, #a3 .el-theme-btn:focus,
+#a3 .el-theme-btn:hover,
+#a3 .el-theme-btn:focus,
 #a3 .el-theme-transparent-btn:hover,
 #a3 .el-theme-transparent-btn:focus,
 #a3 .el-light-transparent-btn:hover,
@@ -218,19 +222,22 @@
   border-color: white;
   color: #06060c;
 }
-#a3 .el-theme-btn[disabled], #a3 .el-theme-btn[disabled]:hover {
+#a3 .el-theme-btn[disabled],
+#a3 .el-theme-btn[disabled]:hover {
   background-color: #75bbb9;
   border-color: #75bbb9;
   color: white;
   cursor: no-drop;
 }
-#a3 .el-dark-btn[disabled], #a3 .el-dark-btn[disabled]:hover {
+#a3 .el-dark-btn[disabled],
+#a3 .el-dark-btn[disabled]:hover {
   background-color: #06060c;
   border-color: #06060c;
   color: white;
   cursor: no-drop;
 }
-#a3 .el-light-btn[disabled], #a3 .el-light-btn[disabled]:hover {
+#a3 .el-light-btn[disabled],
+#a3 .el-light-btn[disabled]:hover {
   background-color: #06060c;
   border-color: #06060c;
   color: white;
@@ -266,7 +273,8 @@
   font-size: 1.125em;
   color: inherit;
 }
-#a3 form .input-item input, #a3 form .input-item textarea {
+#a3 form .input-item input,
+#a3 form .input-item textarea {
   z-index: 9;
   background: none;
   color: #06060c;
@@ -282,49 +290,63 @@
   outline: none;
   transition: all ease-in-out 0.5s;
 }
-#a3 form .input-item input::-webkit-input-placeholder, #a3 form .input-item textarea::-webkit-input-placeholder {
+#a3 form .input-item input::-webkit-input-placeholder,
+#a3 form .input-item textarea::-webkit-input-placeholder {
   color: rgba(6, 6, 12, 0.5);
 }
-#a3 form .input-item input::-moz-placeholder, #a3 form .input-item textarea::-moz-placeholder {
+#a3 form .input-item input::-moz-placeholder,
+#a3 form .input-item textarea::-moz-placeholder {
   color: rgba(6, 6, 12, 0.5);
 }
-#a3 form .input-item input:-moz-placeholder, #a3 form .input-item textarea:-moz-placeholder {
+#a3 form .input-item input:-moz-placeholder,
+#a3 form .input-item textarea:-moz-placeholder {
   color: rgba(6, 6, 12, 0.5);
 }
-#a3 form .input-item input:-ms-input-placeholder, #a3 form .input-item textarea:-ms-input-placeholder {
+#a3 form .input-item input:-ms-input-placeholder,
+#a3 form .input-item textarea:-ms-input-placeholder {
   color: rgba(6, 6, 12, 0.5);
 }
-#a3 form .input-item input:-placeholder, #a3 form .input-item textarea:-placeholder {
+#a3 form .input-item input:-placeholder,
+#a3 form .input-item textarea:-placeholder {
   color: rgba(6, 6, 12, 0.5);
 }
-#a3 form .input-item input.white-input, #a3 form .input-item textarea.white-input {
+#a3 form .input-item input.white-input,
+#a3 form .input-item textarea.white-input {
   color: white;
   border-color: rgba(255, 255, 255, 0.3);
 }
-#a3 form .input-item input.white-input::-webkit-input-placeholder, #a3 form .input-item textarea.white-input::-webkit-input-placeholder {
+#a3 form .input-item input.white-input::-webkit-input-placeholder,
+#a3 form .input-item textarea.white-input::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
-#a3 form .input-item input.white-input::-moz-placeholder, #a3 form .input-item textarea.white-input::-moz-placeholder {
+#a3 form .input-item input.white-input::-moz-placeholder,
+#a3 form .input-item textarea.white-input::-moz-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
-#a3 form .input-item input.white-input:-moz-placeholder, #a3 form .input-item textarea.white-input:-moz-placeholder {
+#a3 form .input-item input.white-input:-moz-placeholder,
+#a3 form .input-item textarea.white-input:-moz-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
-#a3 form .input-item input.white-input:-ms-input-placeholder, #a3 form .input-item textarea.white-input:-ms-input-placeholder {
+#a3 form .input-item input.white-input:-ms-input-placeholder,
+#a3 form .input-item textarea.white-input:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
-#a3 form .input-item input.white-input:-placeholder, #a3 form .input-item textarea.white-input:-placeholder {
+#a3 form .input-item input.white-input:-placeholder,
+#a3 form .input-item textarea.white-input:-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
-#a3 form .input-item input:focus, #a3 form .input-item textarea:focus {
+#a3 form .input-item input:focus,
+#a3 form .input-item textarea:focus {
   color: #06060c;
   border-color: #06060c;
 }
-#a3 form .input-item input:focus.white-input, #a3 form .input-item textarea:focus.white-input {
+#a3 form .input-item input:focus.white-input,
+#a3 form .input-item textarea:focus.white-input {
   border-color: white;
   color: white;
 }
-#a3 form .input-item input:focus ~ .input-group-addon, #a3 form .input-item textarea:focus ~ .input-group-addon {
+#a3 form .input-item input:focus ~ .input-group-addon,
+#a3 form .input-item textarea:focus ~ .input-group-addon {
   opacity: 1;
 }
 #a3 form .input-item textarea {
@@ -364,8 +386,8 @@
   background-color: #75bbb9;
   display: inline-block;
   height: 1em;
-  margin-left: .15em;
-  margin-right: .15em;
+  margin-left: 0.15em;
+  margin-right: 0.15em;
   width: 1em;
   opacity: 0.1;
   animation-name: bounce_opacity;
@@ -402,11 +424,11 @@
   -moz-animation-delay: 0.15s;
 }
 #a3 .el-preloader #circle-2 {
-  animation-delay: 0.30s;
-  -o-animation-delay: 0.30s;
-  -ms-animation-delay: 0.30s;
-  -webkit-animation-delay: 0.30s;
-  -moz-animation-delay: 0.30s;
+  animation-delay: 0.3s;
+  -o-animation-delay: 0.3s;
+  -ms-animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
 }
 #a3 .el-preloader #circle-3 {
   animation-delay: 0.45s;
@@ -572,7 +594,7 @@
 }
 #a3 .fullscreen-section .close-button a:before {
   display: block;
-  content: ' ';
+  content: " ";
   background: white;
   width: 1.5em;
   height: 1.5em;
@@ -828,7 +850,7 @@
   font-size: 0.9375em;
   margin-bottom: 0.53333em;
   font-weight: 500;
-  transition-duration: .4s;
+  transition-duration: 0.4s;
   transform-origin: 50% 50%;
   position: relative;
 }
@@ -848,7 +870,7 @@
   height: 0.26667em;
   z-index: -1;
   bottom: 0.13333em;
-  content: ' ';
+  content: " ";
   transition: all ease-in-out 0.5s;
   width: 0;
   background: #75bbb9;
@@ -947,7 +969,8 @@
   height: auto;
   z-index: 1;
 }
-#a3 .el-more-information .el-our-team ul, #a3 .el-more-information .el-our-team li {
+#a3 .el-more-information .el-our-team ul,
+#a3 .el-more-information .el-our-team li {
   margin: 0;
   padding: 0;
 }
@@ -985,13 +1008,27 @@
 #a3 .el-more-information .el-our-team .team-item .hover-block .social-list li {
   margin: 0 0.5625em;
 }
-#a3 .el-more-information .el-our-team .team-item .hover-block .social-list li a {
+#a3
+  .el-more-information
+  .el-our-team
+  .team-item
+  .hover-block
+  .social-list
+  li
+  a {
   color: #afb6bc;
   opacity: 1;
   font-size: 1.25em;
   transition: all ease-in-out 0.5s;
 }
-#a3 .el-more-information .el-our-team .team-item .hover-block .social-list li a:hover {
+#a3
+  .el-more-information
+  .el-our-team
+  .team-item
+  .hover-block
+  .social-list
+  li
+  a:hover {
   color: #06060c;
 }
 #a3 .el-more-information .el-our-team .team-item:hover .hover-block {
@@ -1027,14 +1064,25 @@
   right: 0;
   position: absolute;
 }
-#a3 .el-more-information .el-portfolio .portfolio-item .hover-block .plus-block {
+#a3
+  .el-more-information
+  .el-portfolio
+  .portfolio-item
+  .hover-block
+  .plus-block {
   position: absolute;
   left: 0;
   right: 0;
   top: 50%;
   transform: translateY(-50%);
 }
-#a3 .el-more-information .el-portfolio .portfolio-item .hover-block .plus-block i {
+#a3
+  .el-more-information
+  .el-portfolio
+  .portfolio-item
+  .hover-block
+  .plus-block
+  i {
   line-height: 1;
   font-size: 1.25em;
   color: white;
@@ -1089,7 +1137,8 @@
   margin: 0 auto;
   padding-bottom: 0;
 }
-#a3 .el-more-information .el-send-form, #a3 .el-more-information .el-send-form * {
+#a3 .el-more-information .el-send-form,
+#a3 .el-more-information .el-send-form * {
   border-radius: 0px;
 }
 #a3 .el-more-information .el-send-form .button-holder {
@@ -1113,7 +1162,7 @@
   margin-top: 0.33333em;
   transform: translateY(-1.3em);
 }
-#a3 .el-more-information .el-send-form [class*=error-title] {
+#a3 .el-more-information .el-send-form [class*="error-title"] {
   display: none;
   text-align: left;
 }
@@ -1124,16 +1173,27 @@
 #a3 .el-more-information .el-send-form .el-contact-info p {
   margin-bottom: 0;
   color: #939da5;
-  font-family: "Montserrat", "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", "Lucida Grande", Arial, Verdana,
+    sans-serif;
   font-size: 0.8125em;
 }
 #a3 .el-more-information .el-send-form .el-contact-info .contact-info-item {
   padding-bottom: 2.0625em;
 }
-#a3 .el-more-information .el-send-form .el-contact-info .contact-info-item .contact-info-title {
+#a3
+  .el-more-information
+  .el-send-form
+  .el-contact-info
+  .contact-info-item
+  .contact-info-title {
   font-weight: 600;
 }
-#a3 .el-more-information .el-send-form .el-contact-info .contact-info-item .contact-title-icon {
+#a3
+  .el-more-information
+  .el-send-form
+  .el-contact-info
+  .contact-info-item
+  .contact-title-icon {
   color: #75bbb9;
   font-size: 1.875em;
   display: block;
@@ -1256,14 +1316,16 @@
   max-width: 25em;
   margin: 0 auto;
 }
-#a3 .el-modal .modal-body, #a3 .el-modal .modal-body * {
+#a3 .el-modal .modal-body,
+#a3 .el-modal .modal-body * {
   border-radius: 0;
 }
-#a3 .el-modal .modal-body input, #a3 .el-modal .modal-body * input {
+#a3 .el-modal .modal-body input,
+#a3 .el-modal .modal-body * input {
   text-align: center;
   padding-left: 0.85714em;
 }
-#a3 .el-modal [type=submit] {
+#a3 .el-modal [type="submit"] {
   margin: 0;
   margin-top: 0.625em;
   cursor: pointer;
@@ -1684,7 +1746,7 @@
   position: fixed;
 }
 #a3 .white-bg {
-  background: white  !important;
+  background: white !important;
 }
 #a3 .align-right {
   text-align: right !important;
@@ -2559,7 +2621,7 @@
   margin-left: -10px;
   margin-right: -10px;
 }
-#a3 .row-20 > [class*=col-] {
+#a3 .row-20 > [class*="col-"] {
   padding-right: 10px;
   padding-left: 10px;
 }
