@@ -1,0 +1,22 @@
+/* Global */
+html {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+#particles-js {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.typewriter > span {
+  border-right: 0.05em solid;
+  animation: caret 0.7s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
