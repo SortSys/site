@@ -4,6 +4,34 @@ html {
   overflow: hidden;
 }
 
+body {
+  font-family: "Cousine", monospace;
+  color: #839496;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Libre Baskerville", serif;
+}
+
+h1 {
+  color: #2aa198;
+}
+
+h2 {
+  color: #268bd2;
+}
+
+h3 {
+  color: #6c71c4;
+}
+
+b {
+  color: #cb4b16;
+}
+
 #particles-js {
   position: absolute;
   height: 100%;
