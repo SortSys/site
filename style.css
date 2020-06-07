@@ -1,7 +1,6 @@
 /* Global */
 html {
   min-height: 100%;
-  overflow: hidden;
 }
 
 body {
@@ -30,6 +29,15 @@ h3 {
 
 b {
   color: #cb4b16;
+}
+
+.bountyheader {
+  font-size: 1.5rem;
+  color: #2aa198;
+}
+
+#console {
+  height: 100px;
 }
 
 #particles-js {
