@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function (event) {
   // array with texts to type in typewriter
   var dataText = [
-    "Bad science is the humanitarian crisis noone is talking about.",
+    "Bad science is the humanitarian crisis no one is talking about.",
   ];
 
   // type one text in the typwriter
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         // text exists! start typewriter animation
         typeWriter(dataText[i], 0, function () {
           // after callback (and whole text has been animated), start next text
-          StartTextAnimation(i + 1);
+          //StartTextAnimation(i + 1);
         });
       }
     }
