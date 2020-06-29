@@ -1,660 +1,204 @@
-
-<!--     A3 - Creative Coming Soon Template     -->
-<!--               Version 1.0                  -->
-
 <!DOCTYPE html>
-<html lang="en" id='a3'>
-<head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129291312-1"></script>
-	<script>
-  		window.dataLayer = window.dataLayer || [];
-  		function gtag(){dataLayer.push(arguments);}
-  		gtag('js', new Date());
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-  		gtag('config', 'UA-129291312-1');
-	</script>
+    <link rel="icon" type="image/png" href="img/favicon/favicon.ico" />
 
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cousine&family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
 
-	<!--  Start header  -->
-	<meta charset='UTF-8'>
-	<meta name="viewport" content="initial-scale=1.0, width=device-width">
-	<title>Science Bounty System</title>
-	<link rel='icon' type='image/png' href='https://sciencebounty.com/assets/img/favicon/favicon.ico' />
-	<!--  End header  -->
+    <!-- Animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
 
+    <!-- Start of HubSpot Embed Code --> 
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/5388132.js"></script> 
+    <!-- End of HubSpot Embed Code -->
 
-	<!--  Start Css  -->
-	<link rel="stylesheet" href="https://sciencebounty.com/assets/fonts/ionicons-2.0.1/css/ionicons.min.css">
-	<link rel="stylesheet" href="https://sciencebounty.com/assets/fonts/font-awesome-4.5.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-	<link rel="stylesheet" href="https://sciencebounty.com/assets/css-plugins/include.css">
-	<link rel="stylesheet" href="https://sciencebounty.com/assets/css-default/style/style.css">
-	<!--   End Css   -->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css" />
 
+    <!-- Our styles :) -->
+    <link rel="stylesheet" href="style.css" />
 
-</head>
-<body>
+    <title>Science Bounty</title>
+  </head>
+  <body>
+    <!-- <div id="particles-js"></div> -->
 
+    <!-- Typewriter stuff -->
+    <div id="console" class="section">
+      <p class="typewriter text-warning"><span aria-hidden="true"></span></p>
 
-	<!--  Start Preloader Section  -->
-	<section class="el-preloader style-default">
-		<h2 class='display-none'>Display none</h2>
-		<div class="preloader-holder">
-			<div class="circle-holder">
-				<div id="circle-1" class="preloader-circle"></div>
-				<div id="circle-2" class="preloader-circle"></div>
-				<div id="circle-3" class="preloader-circle"></div>
-			</div>
-		</div>
-	</section>
-	<!--   End Preloaser Section  -->
+      <div id="downArrow" class="bounce">
+        <div style="position: relative; left: -50%;">
+          <a href="#what" style="position: absolute; height: 100%; width: 100%;  z-index: 100;"></a>
+          <img src="./downChevron.png" style="height:auto; width:100%;">
+        </div>
+      </div>
+    </div>
 
+    <div id="what" class="section">
+      <h3>What</h3>
 
-	<!--  Start Background Section  -->
-	<section class="el-bg-block resp-bg" style="background-image: url(https://sciencebounty.com/assets/img/background/earth.jpg);">
-		<h2 class='display-none'>Display none</h2>
-		<div class="bg-block-holder z-index-10" id='bg-block-holder'></div>
-		<div class="youtube-player z-index-15"></div>
-		<div class="overlay-color-bg opacity-5 z-index-20" ></div>
-		<div class="el-bg-block z-index-25" id="el-bg-block">
-			<canvas id='canvas-animation'></canvas>
-		</div>
-		<div class="overlay-color-bg opacity-0 z-index-30"></div>
-	</section>
-	<!--   End Background Section   -->
+      <p>
+      <b>Science Bounty System</b> is a <b>global, decentralized marketplace</b> for paying
+        scientists to perform <b>scientific due diligence</b>.
+      </p>
 
+      <!-- <br />
 
-	<!--  Start Main Content  -->
-	<main id='canvas-move-area'>
+      <p>
+        Our goal is to improve the scientific ecosystem for all parties involved:
+        academic, governmental, commercial, and the public.
+      </p> -->
+    </div>
 
-		<!--  Start Home Section  -->
-		<section class="el-main-content fullscreen-section scale-in-rotate" id='home-page'>
-			<div class="fullscreen-section-holder el-scroll-holder">
-				<div class="vert-helper"></div><!--
-			 --><div class="content-holder  for-vert-align">
-					<div class="top-text">
+    <br />
 
-						<!--  Logo  -->
-						<div class="logo-block duration-12 translate-from-bottom-15  translate-0">
-							<a class="logo" href='#'><img src="https://sciencebounty.com/assets/img/logo/sciencebounty-logo.png" alt=""></a>
-						</div>
+    <div id="how" class="section">
+      <h3>How</h3>
 
-						<!--  Main Big Text  -->
-						<h1 class="big-text duration-12 translate-from-bottom-13 translate-0"><span id="typed-element">Science Bounty System</span></h1>
+      <!-- <p>
+        The primary source of basic science research grant funding is
+        institutional. This includes governments, grant-making foundations, and
+        private companies’ R&D budget.
+      </p> -->
+      <p>
+        Institutions (governments, grant-making foundations, and
+        private companies) will fund <b>Bounties</b> on isolated, <b>already-published journal articles</b> and currently
+        <b>active studies</b>.
+      </p>
 
-						<!--  Subtext  -->
-						<span class="sub-text duration-12 translate-from-bottom-11 translate-0">52% of published scientific research studies are difficult or impossible to reproduce on subsequent investigation.</span>
-						<br>
-						<span class="sub-text duration-12 translate-from-bottom-11 translate-0">Help us fix that.</span>
+      <br />
 
-					</div>
+      <div class="row">
+        <div class="col-12 col-sm-4">
+          <b><p class="bountyheader">Deconstruction Bounties</p></b>
+          <p>Given a study, have independent expert researchers with relevant experience comb through it to evaluate methods and bias</p>
+          <img src="./deconstruction.png" style="height:auto; width:100%; margin:auto;">
+        </div>
+        <div class="col-12 col-sm-4">
+          <b><p class="bountyheader">Construction Bounties</p></b>
+          <p>Given a study and Deconstruction Bounty Report, have (different) independent expert researchers construct a solid experiment to test the original hypothesis</p>
+          <img src="./construction.png" style="height:auto; width:100%; margin:auto;">
+        </div>
+        <div class="col-12 col-sm-4">
+          <b><p class="bountyheader">Reproduction Bounties</p></b>
+          <p>Given a Construction Bounty Report and a complete experimental design, have multiple independent labs perform the experiment and report results</p>
+          <img src="./reproduction.png" style="height:auto; width:100%; margin:auto;">
+        </div>
+      </div>
 
-					<!--  Counter
-					<div class="counter duration-12 translate-from-bottom-9 translate-0 ">
-						<div class="container-fluid">
-							<div class="row">
-								<div class="days col-6 col-sm-6 col-md-3">
-									<span class="number">{dnnn}</span>
-									<span class="text">{dl}</span>
-								</div>
-								<div class="hours col-6 col-sm-6 col-md-3">
-									<span class="number">{hnn}</span>
-									<span class="text">{hl}</span>
-								</div>
-								<div class="minutes col-6 col-sm-6 col-md-3">
-									<span class="number">{mnn}</span>
-									<span class="text">{ml}</span>
-								</div>
-								<div class="seconds col-6 col-sm-6 col-md-3">
-									<span class="number theme-color">{snn}</span>
-									<span class="text theme-color">{sl}</span>
-								</div>
-							</div>
-						</div>
-					</div>
-					-->
+      <br />
+      <br />
+      <br />
 
-					<!--  Button Block  -->
-					<div class="button-block  duration-12 translate-from-bottom-7 translate-0">
-						<div class="button-holder clearfix">
-							<a href="#more-information" class="btn el-theme-btn el-white-btn-hv only-page-link">More information</a>
-						</div>
-					</div>
+      <p>
+        Through this mechanism Bounty funders can:
+        <ul>
+          <li>
+          <b>Identify experimental flaws</b>, bad data, and bias in studies of importance
+          </li>
+          <li>
+          <b>Perform due diligence</b> on hard science investment opportunities
+          </li>
+          <li>
+          <b>Ensure quality and confidence</b> in work before making decisions based on potentially flawed findings
+          </li>
+          <!-- <li>
+            Vet patent claims, medical promises, and regulatory prudence with greater confidence
+          </li> -->
+        </ul>
+      </p>
+    </div>
 
-					<!--  Social Block
-					<div class="social-block duration-12 translate-from-bottom-6 translate-0">
-						<ul class="social-list clearfix">
-							<li><a href="#" class="ion-social-twitter"></a></li>
-							<li><a href="#" class="ion-social-facebook"></a></li>
-							<li><a href="#" class="ion-social-googleplus"></a></li>
-							<li><a href="#" class="ion-social-pinterest"></a></li>
-							<li><a href="#" class="ion-social-tumblr"></a></li>
-						</ul>
-					</div>
-					-->
+    <br />
 
-				</div>
-			</div>
-		</section>
-		<!--  End Home Section  -->
+    <div id="why" class="section">
+      <h3>Why</h3>
 
+      <p>
+        By leveraging (and <b>compensating</b>) the global <b>academic community</b> dedicated
+        to Truth-seeking, we aim to <b>realign economic and social incentives</b> in the
+        production of knowledge to <b>reward good actors</b>, <b>punish bad actors</b>, and allow
+        all parties to make <b>sound decisions</b> around the use and <b>application of
+        science</b>.
+      </p>
 
-		<!--  Start Side Section  -->
+      <br />
 
-		<!--  Pull Button  -->
-		<div class="main-pull-button">
-			<div class="close-button">
-				<a href="#more-information" class='only-page-link'>
-					<i class="ion-navicon"></i>
-				</a>
-			</div>
-		</div>
+      <p>
+        By <b>reducing friction</b> to and increasing the likelihood of <b>uncovering flawed science</b>, we aim to tighten the feedback loop on knowledge
+        production for the <b>benefit of the world.</b>
+      </p>
 
-		<section class="el-more-information fullscreen-section out-fullscreen-section translate-x" id='more-information'>
-			<a href="#home-page" class="el-side-pusher opacity-5 only-page-link"></a>
+    </div>
 
-			<!--  Side Navigation -->
-			<div class="el-mini-nav">
-				<ul class="nav-list">
-					<li class="nav-item"><a href=".el-about-us" class='active delay-11'><span>About</span></a></li>
-					<li class="nav-item"><a href=".el-service-section" class='delay-7'><span>Benefits</span></a></li>
-				<!--	<li class="nav-item"><a href=".el-our-team" class='delay-9'><span>Team</span></a></li> -->
-					<li class="nav-item"><a href=".el-portfolio" class='delay-13'><span>Partners</span></a></li>
-					<!-- <li class="nav-item"><a href=".el-testimonial" class='delay-11'><span>Testimonials</span></a></li> -->
-					<li class="nav-item"><a href=".el-send-form" class='delay-10'><span>Contact</span></a></li>
-				</ul>
-			</div>
+    <br />
 
+    <div id="who" class="section">
+      <h3>Who</h3>
 
-			<!--  Pull Close Button -->
-			<div class="close-button">
-				<a href="#home-page" class='only-page-link'>
-					<i class="ion-android-close"></i>
-				</a>
-			</div>
+      <p>Charles Jing</p>
+      <p>Jonathan Blackwood</p>
+      <p>Asish Thomas</p>
+      <p>Dalton Cole</p>
+      <p>James Risberg</p>
 
+    </div>
 
-			<!--  Side Section Holder -->
-			<div class="fullscreen-section-holder el-scroll-holder white-bg">
-				<div class="content-holder container-fluid">
+    <br />
 
+    <div id="with" class="section">
+      <h3>With</h3>
 
-					<!--  About Section -->
-					<div class="el-about-us el-describe-section">
-						<div class="title-holder row">
-							<div class="col-12">
-								<h1 class="title">About Us</h1>
-							</div>
-						</div>
-						<div class="el-separator"></div>
-						<span class="sub-text">Science Bounty System is a global, decentralized marketplace that pays scientists to reproduce and fact-check other scientists’ work. </span>
-						<!-- <div class="row">
-							<div class="col-12">
-								<div class="about-carousel owl-carousel">
-									<div class="item">
-										<img src="https://sciencebounty.com/assets/img/about/about-1.jpg" alt="">
-									</div>
-									<div class="item">
-										<img src="https://sciencebounty.com/assets/img/about/about-2.jpg" alt="">
-									</div>
-									<div class="item">
-										<img src="https://sciencebounty.com/assets/img/about/about-3.jpg" alt="">
-									</div>
-								</div>
-							</div>
+      <p>MIT</p>
+      <p>UW</p>
+      <p>UAlberta</p>
+      <p>CDL</p>
+    </div>
 
-							<div class="col-12">
-								<div class="about-text">
-									<p class="text">We are building the Science Bounty System as a means to pay scientists to fact-check each other. At its core, is exchanging one commodity for another: tokens for data. Multiple research groups (unbiased, non-collaborating) will upload their data in order to get paid out from what we call “Science Bounties.” With many sets of reproducibility data stored in an open, immutable, distributed ledger, we can save BILLIONS of wasted research dollars, as well as increase speed and trust in scientific collaboration.</p>
-								</div>
-							</div>
-						-->
-						</div>
-					</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
 
-					<div class="el-divider"></div>
+    <!-- Particles -->
+    <!-- <script src="particles.min.js"></script>
 
-					<!--  Service Section -->
-					<div class="el-service-section el-describe-section">
-						<div class="title-holder row">
-							<div class="col-12">
-								<h1 class="title">Who Benefits?</h1>
-								<div class="el-separator"></div>
-								<span class="sub-text">Our goal is to improve the scientific ecosystem for all parties involved. We believe that reproducibility is critical for maintaining trust in the community.</span>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-12 col-sm-4">
-								<div class="service-item">
-									<div class="service-title">
-										<span class="icon ion-erlenmeyer-flask"></span>
-										<h3>Scientists</h3>
-									</div>
-									<p class="service-text">
-										With Science Bounties, you'll be able to generate additional income by confirming or refuting others' already-published and peer-reviewed science. If you’re good, you may never have to fill out another grant application! Unless, of course, you actually have an idea that will change the course of science. The rest of us will just make sure you are correct.
-									</p>
-								</div>
-							</div>
-							<div class="col-12 col-sm-4">
-								<div class="service-item">
-									<div class="service-title">
-										<span class="icon ion-earth"></span>
-										<h3>Grant Makers</h3>
-									</div>
-									<p class="service-text">
-										The primary source of basic science research grant funding is institutional. This includes governments, grant-making foundations, and private companies’ R&D budget. Institutions will be able create Science Bounties on isolated, already-published journal articles and currently active studies.
-									</p>
-								</div>
-							</div>
-							<div class="col-12 col-sm-4">
-								<div class="service-item">
-									<div class="service-title">
-										<span class="icon ion-cash"></span>
-										<h3>Investors</h3>
-									</div>
-									<p class="service-text">
-										We expect to retain a percentage of each bounty created on our platform. Due to the size of the scientific grant making market (well over a $trillion globally), we believe we are at the forefront of a tremendous opportunity and a turning point in the nature of scientific research.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
+    <script>
+      /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+      particlesJS.load("particles-js", "assets/particles.json", function () {
+        console.log("callback - particles.js config loaded");
+      });
+    </script> -->
 
-					<div class="el-divider"></div>
-
-					<!--  Team Section
-					<div class="el-our-team el-describe-section">
-						<div class="title-holder row">
-							<div class="col-12">
-								<h1 class="title">Our Team</h1>
-								<div class="el-separator"></div>
-								<span class="sub-text">Our unique mix of skill sets and backgrounds have come together for the sake of science.</span>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-12 col-sm-6">
-								<div class="team-item">
-									<div class="img-block">
-										<div class="hover-block">
-											<h4 class="name">Vince Alessi</h4>
-											<span class="team-status">Chief Science Officer</span>
-											<div class="social-block">
-												<ul class="social-list">
-													<li><a href="mailto:vince@sciencebounty.com?Subject=Hello" target="_top">vince@sciencebounty.com</a></li>
-												</ul>
-											</div>
-										</div>
-										<img src="https://sciencebounty.com/assets/img/team/vince.jpg" class='resp-img' alt="">
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6">
-								<div class="team-item">
-									<div class="img-block">
-										<div class="hover-block">
-											<h4 class="name">Charles Jing</h4>
-											<span class="team-status">Chief Exective Officer</span>
-											<div class="social-block">
-												<ul class="social-list">
-														<li><a href="mailto:charles@sciencebounty.com?Subject=Hello" target="_top">charles@sciencebounty.com</a></li>
-												</ul>
-											</div>
-										</div>
-										<img src="https://sciencebounty.com/assets/img/team/charles.png" class='resp-img' alt="">
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6">
-								<div class="team-item">
-									<div class="img-block">
-										<div class="hover-block">
-											<h4 class="name">Dalton Cole</h4>
-											<span class="team-status">Chief Information Officer</span>
-											<div class="social-block">
-												<ul class="social-list">
-														<li><a href="mailto:dalton@sciencebounty.com?Subject=Hello" target="_top">dalton@sciencebounty.com</a></li>
-												</ul>
-											</div>
-										</div>
-										<img src="https://sciencebounty.com/assets/img/team/dalton.png" class='resp-img' alt="">
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6">
-								<div class="team-item">
-									<div class="img-block">
-										<div class="hover-block">
-											<h4 class="name">Andrew Frost</h4>
-											<span class="team-status">VP of Operations</span>
-											<div class="social-block">
-												<ul class="social-list">
-														<li><a href="mailto:andrew@sciencebounty.com?Subject=Hello" target="_top">andrew@sciencebounty.com</a></li>
-												</ul>
-											</div>
-										</div>
-										<img src="https://sciencebounty.com/assets/img/team/andrew.jpg" class='resp-img' alt="">
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-sm-6">
-								<div class="team-item">
-									<div class="img-block">
-										<div class="hover-block">
-											<h4 class="name">Dave Hoover</h4>
-											<span class="team-status">Blockchain Advisor</span>
-											<div class="social-block">
-												<ul class="social-list">
-														<li><a href="mailto:dave@sciencebounty.com?Subject=Hello" target="_top">dave@sciencebounty.com</a></li>
-												</ul>
-											</div>
-										</div>
-										<img src="https://sciencebounty.com/assets/img/team/dave.jpg" class='resp-img' alt="">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="el-divider"></div>
-
--->
-					<!--  Portfolio Section -->
-					<div class="el-portfolio el-describe-section">
-						<div class="title-holder row">
-							<div class="col-12">
-								<h1 class="title">Partners</h1>
-								<div class="el-separator"></div>
-								<span class="sub-text">We are proud to be associated with the following organizations.</span>
-							</div>
-						</div>
-						<div class="row zoom-gallery">
-							<div class="col-6 col-sm-3">
-								<div class="portfolio-item">
-										<img src="https://sciencebounty.com/assets/img/portfolio/cdl.png" style="height:100px; width:auto; margin:auto;" alt="portfolio">
-									<!--<a href="#">
-										<div class="hover-block">
-											<div class="plus-block">
-												<i class="ion-plus"></i>
-											</div>
-										</div>
-									</a>-->
-								</div>
-							</div>
-							<div class="col-6 col-sm-3">
-								<div class="portfolio-item">
-										<img src="https://sciencebounty.com/assets/img/portfolio/pallasite.png" style="height:100px; width:auto; margin:auto;" alt="portfolio">
-									<!--<a href="#">
-											<img src="https://sciencebounty.com/assets/img/portfolio/pallasite.png" alt="portfolio">
-										<div class="hover-block">
-											<div class="plus-block">
-												<i class="ion-plus"></i>
-											</div>
-										</div>
-									</a>-->
-								</div>
-							</div>
-							<div class="col-6 col-sm-3">
-								<div class="portfolio-item">
-										<img src="https://sciencebounty.com/assets/img/portfolio/gforce.png" style="height:100px; width:auto; margin:auto;" alt="portfolio">
-									<!--<a href="#">
-										<img src="https://sciencebounty.com/assets/img/portfolio/gforce.png" alt="portfolio">
-										<div class="hover-block">
-											<div class="plus-block">
-												<i class="ion-plus"></i>
-											</div>
-										</div>
-									</a>-->
-								</div>
-							</div>
-							<!--
-							<div class="col-6 col-sm-3">
-								<div class="portfolio-item">
-									<img src="https://sciencebounty.com/assets/img/portfolio/mit.png" style="height:100px; width:auto; margin:auto;" alt="portfolio">
-									<a href="#">
-										<img src="https://sciencebounty.com/assets/img/portfolio/mit.png" alt="portfolio">
-										<div class="hover-block">
-											<div class="plus-block">
-												<i class="ion-plus"></i>
-											</div>
-										</div>
-
-									</a>
-								</div>
-							</div>
-							-->
-						</div>
-					</div>
-
-					<div class="el-divider"></div>
-
-					<!--  Testimonial Section
-					<div class="el-testimonial el-describe-section">
-						<div class="title-holder row">
-							<div class="col-12">
-								<h1 class="title">Testimonials</h1>
-								<div class="el-separator"></div>
-							</div>
-							<div class="col-12">
-								<div class="testimonial-carousel owl-carousel">
-									<div class="item">
-										<p class="text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-										<div class="person-block">
-											<div class="person-photo">
-												<img src="https://sciencebounty.com/assets/img/testimonial/testimonial-1.jpg" alt="">
-											</div>
-											<span class="person-name fw-700">Mary Carell</span>
-											<span class="person-status">Seo optimaizer</span>
-										</div>
-									</div>
-									<div class="item">
-										<p class="text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-										<div class="person-block">
-											<div class="person-photo">
-												<img src="https://sciencebounty.com/assets/img/testimonial/testimonial-1.jpg" alt="">
-											</div>
-											<span class="person-name fw-700">Mary Carell</span>
-											<span class="person-status">Seo optimaizer</span>
-										</div>
-									</div>
-
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="el-divider"></div>
-				-->
-					<!--  Contact Section -->
-					<form class="el-send-form el-describe-section" action='https://sciencebounty.com//php/contact.php' method="POST">
-						<div class="row row-20">
-							<div class="col-12 title-holder ">
-								<h1 class="title">Contact Us</h1>
-								<div class="el-separator"></div>
-								<span class="sub-text">Please send all information requests to: <a href="mailto:infos@sciencebounty.com?Subject=Hello" target="_top">info@sciencebounty.com</a></span>
-							</div>
-							<!--
-							<div class="col-12 col-md-6">
-								<div class="input-item name-item input-group">
-									<input type="text" name="name" class="form-control" placeholder="Enter name" aria-label="Enter name" required>
-									<span class="input-group-addon" ><i class="ion-person"></i></span>
-								</div>
-								<span class="error-title"></span>
-							</div>
-							<div class="col-12 col-md-6">
-								<div class="input-item email-item input-group">
-									<input type="email" name="email" class="form-control" placeholder="Enter email" aria-label="Enter email" required>
-									<span class="input-group-addon"><i class="ion-email"></i></span>
-								</div>
-								<span class="error-title"></span>
-							</div>
-							<div class="col-12 col-md-6">
-								<div class="input-item company-name-item input-group">
-									<input type="text" name="company-name" class="form-control" placeholder="Enter company" aria-label="Enter company" required>
-									<span class="input-group-addon" ><i class="ion-person-stalker"></i></span>
-								</div>
-								<span class="error-title"></span>
-							</div>
-							<div class="col-12 col-md-6">
-								<div class="input-item phone-number-item input-group">
-									<input type="text" name="phone-number" class="form-control" placeholder="Enter phone" aria-label="Enter phone" required>
-									<span class="input-group-addon" ><i class="ion-iphone"></i></span>
-								</div>
-								<span class="error-title"></span>
-							</div>
-							<div class="col-12">
-								<div class="input-item message-item input-group">
-									<textarea name="message" placeholder="Enter message" required></textarea>
-									<span class="input-group-addon"><i class="ion-chatbox"></i></span>
-								</div>
-								<span class="error-title"></span>
-							</div>
-							<div class='col-12 pb-4'>
-								<div class="button-holder pb-0 mb-0">
-									<button class="btn el-dark-btn el-theme-btn-hv btn-block" type="submit">Send Message<i class="ion-paper-airplane right-icon"></i></button>
-								</div>
-							</div>
-							<div class="col-12">
-								<div class="row el-contact-info">
-									<div class="col-12 col-md-4">
-										<div class="contact-info-item">
-											<i class="contact-title-icon ion-location"></i>
-											<p>Los Angeles, California</p>
-											<p>420 Main St & 12th Aperon</p>
-											<p>67 New York, 102305</p>
-										</div>
-									</div>
-									<div class="col-12 col-md-4">
-										<div class="contact-info-item">
-											<i class="contact-title-icon ion-email"></i>
-											<p>myemail@gmail.com</p>
-											<p>email@gmail.com</p>
-										</div>
-									</div>
-									<div class="col-12 col-md-4">
-										<div class="contact-info-item">
-											<i class="contact-title-icon ion-iphone"></i>
-											<p>+1 800 100 200 30 20</p>
-											<p>+1 800 100 245 30 20</p>
-											<p>+1 800 100 333 33 33</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						-->
-						</div>
-					</form>
-
-
-					<!--  Footer Section -->
-					<div class="el-footer"><span class="footer-text">© 2020 All rights reserved</span></div>
-
-
-				</div>
-			</div>
-		</section>
-		<!--  End Side Section  -->
-
-	</main>
-	<!--   End Main Content   -->
-
-
-	<!-- Start Subscribe Modal -->
-	<div class="modal fade el-modal align-self-center" id="subscribeModal" tabindex="-1" role="dialog" aria-label="exampleModalLabel" aria-hidden="true">
-		<div class="vert-helper"></div><!--
-	 --><div class="modal-dialog for-vert-align" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="subscribeModalLabel">SUBSCRIBE</h5>
-					<span class="icon">
-						<i class="ion-ios-email-outline"></i>
-					</span>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true"><i class="ion-ios-close-outline"></i></span>
-					</button>
-
-				</div>
-				<form class="modal-body el-subscribe-form" method="POST" action='https://sciencebounty.com//php/subscribe.php'>
-					<div class="input-item name-item input-group">
-						<input type="email" name="email" class="form-control white-input" placeholder="Enter email" aria-label="Enter email" required>
-					</div>
-					<span class="error-title"></span>
-					<button class="btn  el-theme-btn el-dark-btn-hv" type="submit">Subscribe</button>
-				</form>
-				<div class="modal-footer"></div>
-			</div>
-		</div>
-	</div>
-	<!-- End Subscribe Modal -->
-
-
-	<!-- Start Contact Modal -->
-	<div class="modal fade show el-modal success-notification" id="mail-notification" tabindex="-1" role="dialog" aria-label="exampleModalLabel" aria-hidden="true">
-		<div class="vert-helper"></div><!--
-	 --><div class="modal-dialog for-vert-align" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<span class="icon">
-						<i class="ion-android-done success-icon"></i>
-					</span>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true"><i class="ion-ios-close-outline"></i></span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<p>Thank you for your message!</p>
-				</div>
-				<div class="modal-footer"></div>
-			</div>
-		</div>
-	</div>
-	<!-- End Contact Modal -->
-
-
-	<!--  Start Scripts   -->
-	<script src='https://sciencebounty.com/assets/js/mobile-detect/mobile-detect.js'></script>
-	<script src='https://sciencebounty.com/assets/js/jquery/jquery.min.js'></script>
-	<script src='https://sciencebounty.com/assets/js/scrollTo/jquery.scrollTo.js'></script>
-	<script src='https://sciencebounty.com/assets/js/popper/popper.min.js'></script>
-	<script src='https://sciencebounty.com/assets/js/bootstrap/bootstrap.min.js'></script>
-	<script src='https://sciencebounty.com/assets/js/magnific-popup/jquery.magnific-popup.min.js'></script>
-	<script src='https://sciencebounty.com/assets/js/youtube-bg/jquery.mb.YTPlayer.js'></script>
-	<script src='https://sciencebounty.com/assets/js/vegas-slideshow/vegas.min.js'></script>
-	<script src='https://sciencebounty.com/assets/js/owl-carousel/owl.carousel.min.js'></script>
-	<script src='https://sciencebounty.com/assets/js/countdown/countdown.js'></script>
-	<script src='https://sciencebounty.com/assets/js/typed/typed.min.js'></script>
-	<script src='https://sciencebounty.com/assets/js/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js'></script>
-	<script src='https://sciencebounty.com/assets/js/canvas/particles.js'></script>
-	<script>
-
-		/*=============================
-		Start Main Settings
-		=============================*/
-		var canvasAnimation     = [true, 'particles-default'],
-			animationInMobile   = true,
-			preloaderFadeOut    = 1000,
-			targetDate          = "12/19/2019 00:00:00",
-			youtubeBg           = false,
-			youtubeProperty     = {videoURL:"", containment:'#bg-block-holder', quality:'hd720', showControls:false, autoPlay:true, mute:true, startAt:0, opacity:1},
-			videoBgMobile       = [false, 'slideshow'],
-			globalSlideshow     = [false, [{src: 'https://sciencebounty.com/assets/img/slideshow/slide-1.jpg'}, {src: 'https://sciencebounty.com/assets/img/slideshow/slide-2.jpg'}]],
-			typed               = [false, ['Science Bounty System','Science Bounty System']],
-			typedInMobile       = [false, 'Science Bounty System'];
-		/*=============================
-		End Main Settings
-		=============================*/
-
-	</script>
-	<script src='https://sciencebounty.com/assets/js/main/main.js'></script>
-
-	<script>
-  window.intercomSettings = {
-    app_id: "dbntypbl"
-  };
-</script>
-<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/dbntypbl';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
-
-	<!--   End Scripts   -->
-
-</body>
+    <!-- Typewriter-->
+    <script src="typewriter.js"></script>
+  </body>
 </html>
